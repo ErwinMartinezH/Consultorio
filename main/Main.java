@@ -1,3 +1,8 @@
+from Funciones import Alumno;
+from Funciones import Catedratico;
+from Funciones import Especialidad;
+from Funciones import Grupo;
+from Funciones import Materia;
 public class Main {
     public static void main(String[] args) {
         Especialidad
