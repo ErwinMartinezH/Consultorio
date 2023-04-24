@@ -19,23 +19,3 @@ public class Grupo {
         return clave;
     }
 
-    public Materia getMateria() {
-        return materia;
-    }
-
-    public Catedratico getCatedratico() {
-        return catedratico;
-    }
-
-    public int getHora() {
-        return hora;
-    }
-
-    public int getSalon() {
-        return salon;
-    }
-
-    public Alumno[] getAlumnos() {
-        return alumnos;
-    }
-}
