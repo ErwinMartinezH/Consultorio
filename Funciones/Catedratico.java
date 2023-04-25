@@ -3,7 +3,7 @@ public class Catedratico {
     private String nombre;
     private int RFC;
 
-    public DocenteDatos(String nombre, int RFC) {
+    public Catedratico(String nombre, int RFC) {
 
 
         private class Catedratico {
