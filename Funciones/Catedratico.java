@@ -1,3 +1,4 @@
+
 public class Catedratico {
 
     private String nombre;
@@ -5,56 +6,62 @@ public class Catedratico {
 
     public DocenteDatos(String nombre, int RFC) {
 
-        this.nombre = nombre;
-        this.RFC = RFC;
-    }
 
-    public String getNombre() {
+        private class Catedratico {
+            private String nombre;
+            private int RFC;
 
-        return nombre;
-    }
+            public Catedratico(String nombre, int RFC) {
 
-    public void setNombre(String nombre) {
+                this.nombre = nombre;
+                this.RFC = RFC;
+            }
 
-        this.nombre = nombre;
-    }
+            public String getNombre() {
 
-    public int getRFC() {
+                return nombre;
+            }
 
-        return RFC;
-    }
+            public void setNombre(String nombre) {
 
-    public void setRFC(int RFC) {
+                this.nombre = nombre;
+            }
 
-        this.RFC = RFC;
-    }
+            public int getRFC() {
 
-    private String nombre;
-    private int RFC;
+                return RFC;
+            }
 
-    public DocenteDatos(String nombre, int RFC) {
+            public void setRFC(int RFC) {
 
-        this.nombre = nombre;
-        this.RFC = RFC;
-    }
+                this.RFC = RFC;
+            }
 
-    public String getNombre() {
+            private String nombre;
+            private int RFC;
 
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
 
         this.nombre = nombre;
-    }
-
-    public int getRFC() {
-
-        return RFC;
-    }
-
-    public void setRFC(int RFC) {
-
         this.RFC = RFC;
+        }
+
+        public String getNombre() {
+
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+
+            this.nombre = nombre;
+        }
+
+        public int getRFC() {
+
+            return RFC;
+        }
+
+        public void setRFC(int RFC) {
+
+            this.RFC = RFC;
+        }
     }
-}
